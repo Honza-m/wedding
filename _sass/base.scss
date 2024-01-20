@@ -1,0 +1,25 @@
+// Override bootstrap colors
+$primary: #323314;
+$secondary: #776B39;
+$light: #E3DCD4;
+$info: #CEAA86;
+$dark: #9C5841;
+
+// Override bootstrap fonts
+@import url("https://fonts.googleapis.com/css?family=Poppins|Poiret%20One|Sacramento|DM%20Mono");
+$font-family-sans-serif: "Poppins", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$font-family-serif: "Poiret One", Georgia, "Times New Roman", Times, serif !default;
+$font-family-mono: "DM Mono", "Courier Mono" !default;
+$font-family-cursive: "Sacramento", Arial !default;
+
+// Import bootstrap
+@import "bootstrap";
+
+// Basic styling
+body {
+    font-family: $font-family-sans-serif;
+    background-color: $light,
+}
+
+// Import custom
+@import "index.scss"
