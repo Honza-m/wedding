@@ -15,11 +15,8 @@ $font-family-cursive: "Sacramento", Arial !default;
 // Import bootstrap
 @import "bootstrap";
 
-// Basic styling
-body {
-    font-family: $font-family-sans-serif;
-    background-color: $light,
-}
-
 // Import custom
-@import "index.scss"
+@import "common.scss";
+@import "404.scss";
+@import "index.scss";
+@import "page.scss";
