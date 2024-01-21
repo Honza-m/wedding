@@ -9,22 +9,8 @@
   <body>
 
   <div class="container-fluid p-0">
-    <header class="header py-3 px-5 text-bg-dark d-flex flex-column flex-lg-row">
-      <div class="header-names"><a href="/">Honza & Maryssa</a></div>
-      <div class="header-links">
-        <a href="/{{page.lang | default: 'en'}}/intro/">Intro</a>
-        <a href="/{{page.lang | default: 'en'}}/faqs/">FAQs</a>
-        <a href="/{{page.lang | default: 'en'}}/location/">Location</a>
-      </div>
-      <div id="wedding-countdown" class="header-countdown" data-date="{{site.wedding_date}}">
-        <span class="countdown-item days"
-        >000</span>:<span class="countdown-item hours"
-        >00</span>:<span class="countdown-item minutes"
-        >00</span>:<span class="countdown-item seconds"
-        >00</span>
-      </div>
-    </header>
-    <div class="page-content container-md">
+    {% include navbar.html %}
+    <div class="page-content container-md pt-3">
       {{content}}
     </div>
   </div>

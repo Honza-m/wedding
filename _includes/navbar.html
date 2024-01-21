@@ -1,0 +1,19 @@
+<header class="header py-3 px-5 text-bg-dark d-flex flex-column flex-lg-row">
+  <div class="header-names"><a href="/">Honza & Maryssa</a></div>
+  <div class="header-links flex-wrap">
+    {% assign url_lang = page.url | slice: 1, 2 %}
+    {% assign sorted_pages = site.pages | sort: "nav_index" %}
+    {% for page in sorted_pages %}
+      {% if page.lang == url_lang && page.nav_name %}
+      <a href="{{page.url | replace: '.html', ''}}">{{page.nav_name}}</a>
+      {% endif %}
+    {% endfor %}
+  </div>
+  <div id="wedding-countdown" class="header-countdown" data-date="{{site.wedding_date}}">
+    <span class="countdown-item days"
+    >000</span>:<span class="countdown-item hours"
+    >00</span>:<span class="countdown-item minutes"
+    >00</span>:<span class="countdown-item seconds"
+    >00</span>
+  </div>
+</header>

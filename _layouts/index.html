@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ site.title }}</title>
+    <title>{{ page.title | default: site.title }}</title>
     <link rel="stylesheet" href="/assets/main.css">
   </head>
   <body>
@@ -17,13 +17,13 @@
             <div class="d-flex justify-content-center">
               <div id="wedding-countdown" class="countdown-index" data-date="{{site.wedding_date}}">
                 <span
-                  class="countdown-item days" data-cz="dní" data-en="days"
+                  class="countdown-item days" data-cz="dny" data-en="days"
                 >000</span>:<span
-                  class="countdown-item hours" data-cz="hodin" data-en="hours"
+                  class="countdown-item hours" data-cz="hodiny" data-en="hours"
                 >00</span>:<span
-                  class="countdown-item minutes" data-cz="minut" data-en="minutes"
+                  class="countdown-item minutes" data-cz="minuty" data-en="minutes"
                 >00</span>:<span
-                  class="countdown-item seconds" data-cz="sekund" data-en="seconds"
+                  class="countdown-item seconds" data-cz="sekundy" data-en="seconds"
                 >00</span>
               </div>
             </div>
