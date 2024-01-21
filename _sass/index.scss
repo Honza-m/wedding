@@ -33,7 +33,7 @@
   .names-container { @include flower-background; }
 }
 @include media-breakpoint-down(lg) {
-  body { @include flower-background; }
+  .index-body { @include flower-background; }
 }
 
 .names {
