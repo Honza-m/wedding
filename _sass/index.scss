@@ -14,8 +14,26 @@
     height: 100vh;
     @include media-breakpoint-down(lg) {
         max-height: 300px;
+        width: 60%;
+    }
+    @include media-breakpoint-down(sm) {
+        max-height: 300px;
         width: 100%;
     }
+}
+
+@mixin flower-background {
+  background-image: url('/assets/img/flowers.png');
+  background-position: bottom -10px center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@include media-breakpoint-up(lg) {
+  .names-container { @include flower-background; }
+}
+@include media-breakpoint-down(lg) {
+  body { @include flower-background; }
 }
 
 .names {
