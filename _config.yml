@@ -24,6 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Wedding!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://honza-maryssa.com" # the base hostname & protocol for your site, e.g. http://example.com
+wedding_date: "2024-07-07T13:00:00+02:00"
 
 sass:
     load_paths:
@@ -31,6 +32,7 @@ sass:
       - _sass
 
 # Build settings
+markdown: kramdown
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -40,14 +42,14 @@ sass:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

@@ -1,5 +1,5 @@
 ---
 layout: page
-title: Honza & Maryssa
+lang: cs
 ---
 Tohle je česká stránka

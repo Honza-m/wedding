@@ -1,9 +1,9 @@
 .cover-image {
     padding: 0;
-    max-width: 35%;
+    width: 35%;
     @include media-breakpoint-down(lg) {
-        max-width: none;
-        padding: 5em 1em 3em 1em;
+        width: 100%;
+        padding: 3em 1em;
     }
 }
 
@@ -29,7 +29,7 @@
     }
 }
 
-.countdown {
+.countdown-index {
     text-align: center;
     white-space: nowrap;
     border: 1px solid black;
@@ -47,7 +47,7 @@
         font-size: 2rem;
     }
 
-    &-item{
+    > .countdown-item {
         position: relative;
         &::before {
             content: attr(data-cz);

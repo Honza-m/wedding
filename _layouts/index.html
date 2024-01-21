@@ -3,22 +3,22 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title }}</title>
+    <title>{{ site.title }}</title>
     <link rel="stylesheet" href="/assets/main.css">
   </head>
   <body>
     <div class="container-fluid p-0 vh-100">
         <div class="d-flex flex-column flex-lg-row">
           <div class="cover-image">
-            <img src="assets/img/cover.jpg" alt="Honza & Maryssa walking down a street" loading="lazy">
+            <img src="assets/img/cover.jpg" alt="Honza & Maryssa walking down a street">
           </div>
           <div class="flex-grow-1 p-3 d-flex flex-column justify-content-center">
             <h1 class="names lh-1">Honza & Maryssa</h1>
             <div class="d-flex justify-content-center">
-              <div id="wedding-countdown" class="countdown" data-date="2024-07-07T13:00:00+02:00">
+              <div id="wedding-countdown" class="countdown-index" data-date="{{site.wedding_date}}">
                 <span
                   class="countdown-item days" data-cz="dní" data-en="days"
-                >00</span>:<span
+                >000</span>:<span
                   class="countdown-item hours" data-cz="hodin" data-en="hours"
                 >00</span>:<span
                   class="countdown-item minutes" data-cz="minut" data-en="minutes"

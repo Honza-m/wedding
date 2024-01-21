@@ -1,0 +1,44 @@
+.header {
+  gap: 1rem;
+
+  a {
+    color: $light;
+    text-decoration: none;
+  }
+
+  &-links {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: $light;
+
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &-names {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $font-family-cursive;
+    font-size: 2rem;
+
+    a:hover {
+      text-decoration: none;
+    }
+  }
+
+  &-countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $font-family-mono;
+  }
+}
+
+.page-content {
+  max-width: 800px;
+}

@@ -26,12 +26,11 @@ function countdown(elementId) {
     const seconds = Math.floor((diffDate % (1000 * 60)) / 1000);
 
     document.getElementsByClassName("countdown-item days")[0].textContent =
-      days;
+      String(days).padStart(3, "0");
     document.getElementsByClassName("countdown-item hours")[0].textContent =
       String(hours).padStart(2, "0");
     document.getElementsByClassName("countdown-item minutes")[0].textContent =
       String(minutes).padStart(2, "0");
-
     document.getElementsByClassName("countdown-item seconds")[0].textContent =
       String(seconds).padStart(2, "0");
   }, 1000);
