@@ -1,6 +1,6 @@
 ---
 layout: page
-lang: en
+lang: cs
 title: Honza & Maryssa
 nav_name: Praha
 nav_index: 3
