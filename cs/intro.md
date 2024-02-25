@@ -6,7 +6,7 @@ nav_name: O svatbě
 nav_index: 1
 ---
 # Oslavte to s námi 7. července 2024
-**Prosím potvrďte účast [tady](/cs/rsvp) do 9th června.**
+**Prosím potvrďte účast [tady](/cs/rsvp) do 9. června.**
 
 Nechte nám na vás email abychom vám mohli posílat novinky a aktualizace. Přesný čas obřadu musíme ještě doladit, takže vám dáme vědět blíž k datu svatby.
 
