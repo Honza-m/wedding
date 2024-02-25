@@ -1,21 +1,24 @@
 .cover-image {
     padding: 0;
     width: 35%;
+
     @include media-breakpoint-down(lg) {
         width: 100%;
         padding: 3em 1em;
     }
 }
 
-.cover-image > img {
+.cover-image>img {
     object-fit: cover;
     object-position: right center;
     max-width: 100%;
     height: 100vh;
+
     @include media-breakpoint-down(lg) {
         max-height: 300px;
         width: 60%;
     }
+
     @include media-breakpoint-down(sm) {
         max-height: 300px;
         width: 100%;
@@ -23,17 +26,22 @@
 }
 
 @mixin flower-background {
-  background-image: url('/assets/img/flowers.png');
-  background-position: bottom -10px center;
-  background-repeat: no-repeat;
-  background-size: contain;
+    background-image: url('/assets/img/flowers.png');
+    background-position: bottom -10px center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 @include media-breakpoint-up(lg) {
-  .names-container { @include flower-background; }
+    .names-container {
+        @include flower-background;
+    }
 }
+
 @include media-breakpoint-down(lg) {
-  .index-body { @include flower-background; }
+    .index-body {
+        @include flower-background;
+    }
 }
 
 .names {
@@ -41,7 +49,8 @@
     margin-bottom: 2rem;
     text-align: center;
     font-family: $font-family-cursive;
-    font-size: 5rem;
+    font-size: 7rem;
+
     @include media-breakpoint-down(lg) {
         font-size: 3rem
     }
@@ -58,15 +67,18 @@
     background: $primary;
     font-family: $font-family-mono;
     font-size: 4rem;
+
     @include media-breakpoint-down(lg) {
         font-size: 3rem;
     }
+
     @include media-breakpoint-down(sm) {
         font-size: 2rem;
     }
 
-    > .countdown-item {
+    >.countdown-item {
         position: relative;
+
         &::before {
             content: attr(data-cz);
             position: absolute;
@@ -75,11 +87,13 @@
             top: 0px;
             left: 50%;
             transform: translate(-50%, -30%);
+
             @include media-breakpoint-down(sm) {
                 font-size: .6rem;
                 transform: translate(-50%, -40%);
             }
         }
+
         &::after {
             content: attr(data-en);
             position: absolute;
@@ -88,6 +102,7 @@
             bottom: 0px;
             left: 50%;
             transform: translate(-50%, 30%);
+
             @include media-breakpoint-down(sm) {
                 font-size: .6rem;
                 transform: translate(-50%, 40%);
