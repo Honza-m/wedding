@@ -21,4 +21,26 @@ We are so excited to celebrate with you in one of our favourite cities! We’ve 
 ## Map of Things To Do 
 Here is a map of all the places mentioned in the guide above, which includes some of our favourite places in the city!
 
+<p>
 <iframe src="https://www.google.com/maps/d/embed?mid=1IywmMuzB--FEjhf1bKl4fu_jQJtk2vc&ehbc=2E312F" width="780" height="480"></iframe>
+</p>
+
+# Getting around Prague
+## eSIM
+If you have a phone with eSIM capabilities (iPhone XS and newer), we recommend getting a Czech eSIM to keep you connected while in Europe for cheap.
+
+We've used a service called [Nomad](https://www.getnomad.app/en/czech-republic-eSIM) before which provides a data only eSIM for reasonable prices (about $5 for 1 GB for 7 days or $27 for 15GB for 30 days).
+
+## Currency
+The local currency is Czech Crown (CZK) (Česká Koruna/Kč in Czech). $1 is about 23 Kč, £1 is about 29 Kč, although the rates can fluctuate. 
+
+Contactless cards and Apple Pay are accepted in most places, so it's unlikely you will need cash. Mastercard and Visa are universally accepted, but you might have issues with AMEX.
+
+If you want to exchange some cash anyway, use [this map](https://www.google.com/maps/d/viewer?mid=1jmZ7dEkDNIqSePBPzWHHjSQ5_m_97rOK&ll=50.08196856173851%2C14.41933984999996&z=15) to find an honest exchange office near you. You can also use an ATM by an established bank, but avoid the yellow/blue ATMs that advertise in English, they charge large withdrawal fees.
+
+While some restaurants will also accept Euros, this is often a sign of a tourist trap, and they will certainly offer a poor conversion rate, so just use your card.
+
+When paying with a foreign card, the terminal might give you a choice of paying in your account's currency or in Czech Crowns (CZK). Choosing CZK is always a better deal, as it ensures the conversion rate is set by your bank and not by the payment provider, who often offer a worse rate. 
+
+## Offline maps
+To save on mobile data use you can also download maps into your phone. See [this guide](https://guidebooks.google.com/iphone/maps/how-to-navigate-offline-google-maps-iphone?hl=en-gb) for Google Maps, or download [mapy.cz](https://en.mapy.cz), a local app that makes downloading offline maps easy.

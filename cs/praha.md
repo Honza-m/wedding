@@ -8,7 +8,7 @@ nav_index: 3
 # Co dělat Praze
 Tohle pro Čechy nebude úplně zajímavé, ale i tak se s vámi chceme podělit o našeho průvodce místy která doporučujeme rodině a přátelům ze zahraničí.
 
-Máte tipy na místa která by naši hosté neměli v Praze minout? Podělte se s námi a mz o nich dáme všem vědět.
+Máte tipy na místa která by naši hosté neměli v Praze minout? Podělte se s námi a my o nich dáme všem vědět.
 
 <div style="position: relative; width: 100%; height: 0; padding-top: 77.2727%;
  padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;

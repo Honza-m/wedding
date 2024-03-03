@@ -1,47 +1,48 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title | default: site.title }}</title>
-    <link rel="stylesheet" href="/assets/main.css">
-    <link rel="shortcut icon" type="image/png" href="/assets/img/favicon.png">
-  </head>
-  <body>
-    <div class="index-body container-fluid p-0 vh-100">
-        <div class="d-flex flex-column flex-lg-row">
-          <div class="cover-image d-flex justify-content-center">
-            <img src="assets/img/cover.jpg" alt="Honza & Maryssa walking down a street">
-          </div>
-          <div class="names-container flex-grow-1 p-3 d-flex flex-column justify-content-center">
-            <h1 class="names lh-1">Honza & Maryssa</h1>
-            <div class="d-flex justify-content-center">
-              <div id="wedding-countdown" class="countdown-index" data-date="{{site.wedding_date}}">
-                <span
-                  class="countdown-item days" data-cz="dny" data-en="days"
-                >000</span>:<span
-                  class="countdown-item hours" data-cz="hodiny" data-en="hours"
-                >00</span>:<span
-                  class="countdown-item minutes" data-cz="minuty" data-en="minutes"
-                >00</span>:<span
-                  class="countdown-item seconds" data-cz="sekundy" data-en="seconds"
-                >00</span>
-              </div>
-            </div>
-            <div class="pb-lg-5 gap-2 d-flex justify-content-center">
-              <a href="/cs/intro" class="btn btn-dark btn-lg px-4">
-                Česky
-              </a>
-              <a href="/en/intro" class="btn btn-dark btn-lg px-4">
-                English
-              </a>
-            </div>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="robots" content="noindex">
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="shortcut icon" type="image/png" href="/assets/img/favicon.png">
+</head>
+
+<body>
+  <div class="index-body container-fluid p-0 vh-100">
+    <div class="d-flex flex-column flex-lg-row">
+      <div class="cover-image d-flex justify-content-center">
+        <img src="assets/img/cover.jpg" alt="Honza & Maryssa walking down a street">
+      </div>
+      <div class="names-container flex-grow-1 p-3 d-flex flex-column justify-content-center">
+        <h1 class="names lh-1">Honza & Maryssa</h1>
+        <div class="d-flex justify-content-center">
+          <div id="wedding-countdown" class="countdown-index" data-date="{{site.wedding_date}}">
+            <span class="countdown-item days" data-cz="dny" data-en="days">000</span>:<span class="countdown-item hours"
+              data-cz="hodiny" data-en="hours">00</span>:<span class="countdown-item minutes" data-cz="minuty"
+              data-en="minutes">00</span>:<span class="countdown-item seconds" data-cz="sekundy"
+              data-en="seconds">00</span>
           </div>
         </div>
+        <div class="pb-lg-5 gap-2 d-flex justify-content-center">
+          <a href="/cs/intro" class="btn btn-dark btn-lg px-4">
+            Česky
+          </a>
+          <a href="/en/intro" class="btn btn-dark btn-lg px-4">
+            English
+          </a>
+        </div>
       </div>
+    </div>
+  </div>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="/assets/main.js"></script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="/assets/main.js"></script>
+</body>
+
 </html>
