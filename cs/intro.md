@@ -6,10 +6,8 @@ nav_name: O svatbě
 nav_index: 1
 ---
 # Oslavte to s námi 7. července 2024
-**Prosím potvrďte účast [tady](/cs/rsvp) do 9. června.**
 
-Nechte nám na vás email abychom vám mohli posílat novinky a aktualizace. Přesný čas obřadu musíme ještě doladit, takže vám dáme vědět blíž k datu svatby.
-
+**Doražte prosím kolem 13:00, obřad začíná v 14:00.**
 
 ## Místo
 **[Mlýn na Dobré Vodě](http://www.mlynnadobrevode.cz/kontakt/)**
@@ -28,4 +26,3 @@ Jsme rádi že se k nám připojíte a vaše přítomnost na naší svatbě je t
 </p>
 - Jméno - `Jan Morawiec`
 - Číslo účtu - `1021294057/5500`
-
