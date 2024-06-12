@@ -110,3 +110,19 @@
         }
     }
 }
+#photos-qr-code {
+  background: white;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 1.3rem;
+
+  div:first-child {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    text-align: center;
+  }
+  div:last-child {
+    writing-mode: vertical-lr;
+    text-align: center;
+  }
+}

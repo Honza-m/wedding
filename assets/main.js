@@ -12,8 +12,18 @@ function countdown(elementId) {
 
   // Countdown done
   if (diffDate < 0) {
-    clearInterval(x);
-    document.getElementById(elementId).innerHTML = "It's here!";
+    const counterObj = document.getElementById(elementId);
+    if (counterObj.classList.contains('countdown-index')){
+      counterObj.classList.add('d-none')
+      runConfetti();
+      document.getElementById('photos-qr-container').classList.remove('d-none');
+      document.getElementById('photos-qr-container').classList.add('d-flex');
+    }
+    else {
+      counterObj.innerHTML = "❤️ ";
+    }
+
+    return
   }
 
   // Countdown continues
@@ -34,4 +44,34 @@ function countdown(elementId) {
     String(seconds).padStart(2, "0");
 
   setTimeout(countdown, 1000, elementId);
+}
+
+function runConfetti() {
+  const defaults = {
+    spread: 360,
+    ticks: 100,
+    gravity: 0,
+    decay: 0.94,
+    startVelocity: 25,
+    shapes: ["heart"],
+    colors: ["FFC0CB", "FF69B4", "FF1493", "C71585"],
+  };
+
+  confetti({
+    ...defaults,
+    particleCount: 50,
+    scalar: 2,
+  });
+
+  confetti({
+    ...defaults,
+    particleCount: 25,
+    scalar: 3,
+  });
+
+  confetti({
+    ...defaults,
+    particleCount: 10,
+    scalar: 4,
+  });
 }
