@@ -21,12 +21,25 @@ There is more info on getting around Prague and things to do while in the city [
 ## Registry
 We are so excited to have you join our special day and your presence at our wedding is the best gift we could ask for. However, if you wish to give us a present, a contribution towards our honeymoon or home improvements would be very much appreciated. Please don't bring us physical gifts, we won't have a way of getting them back to Scotland.
 
-#### Bank details
+#### Bank details - from the US
+- Account holder: `Jan Morawiec`
+- ACH and Wire routing number: `026073150`
+- Account number: `8314562595`
+- Account type: `Checking`
+- Bank address:
+```
+30 W. 26th Street, Sixth Floor
+New York NY 10010
+United States
+```
+
+#### Bank details - international bank transfer
+- BIC - `MONZGB2L`
+- IBAN - `GB19 MONZ 0400 0463 7478 19`
+
+#### Bank details - from the UK
 - [Simple collection by card](https://monzo.me/maryssaburkenheim)
-- UK details
+- UK bank details
   - Account holder - `Maryssa Burkenheim`
   - Account number - `63747819`
   - Sort code - `04-00-04`
-- International transfer details
-  - BIC - `MONZGB2L`
-  - IBAN - `GB19 MONZ 0400 0463 7478 19`
