@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title | default: site.title }}</title>
-  <meta name="robots" content="noindex">
+  <meta name="robots" content="noindex, nofollow">
   <link rel="stylesheet" href="/assets/main.css">
   <link rel="shortcut icon" type="image/png" href="/assets/img/favicon.png">
 </head>
@@ -14,7 +14,7 @@
   <div class="index-body container-fluid p-0 vh-100">
     <div class="d-flex flex-column flex-lg-row">
       <div class="cover-image d-flex justify-content-center">
-        <img src="assets/img/cover.jpg" alt="Honza & Maryssa walking down a street">
+        <img src="assets/img/cover2.jpg" alt="Honza & Maryssa embracing">
       </div>
       <div class="names-container flex-grow-1 p-3 d-flex flex-column justify-content-center">
         <h1 class="names lh-1">Honza & Maryssa</h1>
@@ -26,13 +26,14 @@
               data-en="seconds">00</span>
           </div>
         </div>
-        <div id="photos-qr-container" class="pb-lg-5 pb-4 d-none justify-content-center">
-          <div id="photos-qr-code" class="pt-2 pb-2 d-flex">
-            <div>Send us your photos!</div>
-            <a href="https://photos.app.goo.gl/mpeaPudFanQW5mHU8">
-              <img src="/assets/img/photos-qr.png" />
-            </a>
-            <div>Pošlete nám vaše fotky!</div>
+        <div class="pb-lg-5 pb-4 d-flex flex-column align-items-center">
+          <div id="photos-links-container">
+            <div>
+              <a href="https://drive.google.com/drive/folders/1f1ReUfhn5AtlvXYfIzqx-oXYVobwVtEh?usp=sharing" target="_blank">📷 Fotografova galerie / Photographer's gallery</a>
+            </div>
+            <div>
+              <a href="https://photos.app.goo.gl/mpeaPudFanQW5mHU8" target="_blank">🤳 Sdílená galerie / Shared gallery</a>
+            </div>
           </div>
         </div>
         <div class="pb-lg-5 gap-2 d-flex justify-content-center">
