@@ -32,14 +32,3 @@ We are so excited to have you join our special day and your presence at our wedd
 New York NY 10010
 United States
 ```
-
-#### Bank details - international bank transfer
-- BIC - `MONZGB2L`
-- IBAN - `GB19 MONZ 0400 0463 7478 19`
-
-#### Bank details - from the UK
-- [Simple collection by card](https://monzo.me/maryssaburkenheim)
-- UK bank details
-  - Account holder - `Maryssa Burkenheim`
-  - Account number - `63747819`
-  - Sort code - `04-00-04`
